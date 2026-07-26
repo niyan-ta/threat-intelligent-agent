@@ -177,15 +177,15 @@ Copy `.env.example` to `.env` and populate it with your real credentials.
 
 ```env
 # --- Azure OpenAI ---
-AZURE_OPENAI_API_KEY=openai-api-key
+AZURE_OPENAI_API_KEY=your-real-key
 AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
-AZURE_OPENAI_DEPLOYMENT=llm_model
+AZURE_OPENAI_DEPLOYMENT=gpt-4o-mini
 
 # --- Threat Intelligence APIs ---
-VT_API_KEY=virustotal-key
-ABUSEIPDB_API_KEY=abuseipdb-key
-OTX_API_KEY=otx-key
-NVD_API_KEY=nvd-key
+VT_API_KEY=your-virustotal-key
+ABUSEIPDB_API_KEY=your-abuseipdb-key
+OTX_API_KEY=your-otx-key
+NVD_API_KEY=your-nvd-key
 ```
 
 ---
@@ -324,5 +324,4 @@ Released under the [MIT License](LICENSE).
 ---
 
 <p align="center"><em>Built as a demonstration of agentic AI engineering, security reasoning, and production judgment.</em></p>
-
 

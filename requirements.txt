@@ -1,1 +1,6 @@
-#req
+openai
+python-dotenv
+requests
+pydantic
+streamlit
+langgraph
